@@ -14,9 +14,9 @@
         <nav class="navigation">
             <a href="#" class="logo">WAS <span>Projetos e Construções</span></a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#"><h2>Sobre</h2></a></li>
-                <li class="nav-item"><a href="#"><h2>Projetos</h2></a></li>
-                <li class="nav-item"><a href="#"><h2>Contato</h2></a></li>
+                <li class="nav-item"><a href="sobre.html"><h2>Sobre</h2></a></li>
+                <li class="nav-item"><a href="#projc"><h2>Projetos</h2></a></li>
+                <li class="nav-item"><a href="#footer_content"><h2>Contato</h2></a></li>
             </ul>
             <div class="menu">
                 <span class="bar"></span>
@@ -26,14 +26,13 @@
         </nav>
     </header>
     <main>
-
         <section class="home">
             <div class="home-text">
               
                 <h4 class="text-h4">Bem-Vindo WAS Projeto e Construçoes</h4>
                 <h1 class="text-h1">Texto que tenho que colocar depois</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod error veniam in voluptatem magni quisquam</p>
-                <a href="#" class="home-btn">Veja Mais</a>
+                <a href="/sobre.html" class="home-btn">Veja Mais</a>
             </div>
             <div class="home-img">
                 <img src="img/waslogo.png" alt="Logo">
@@ -41,40 +40,48 @@
         </section>
     </main>  
 
-    <div class="projetos">
+    <div class="projetos" id="projc">
     <div class="card card1">
         <img src="img/waslogo.png" alt="imagem1">
         <h1>Projetos</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but </p>
-        <button class="btn-cards">Veja mais</button>
+        <p>v</p>
+        <button id="myBtn" class="btn-cards">Veja mais</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Projeto de Automatização Industrial:
+                Neste projeto, a equipe de engenharia trabalhou no desenvolvimento de um sistema de automação para uma linha de produção industrial. O objetivo era aumentar a eficiência operacional, reduzir custos e melhorar a segurança dos trabalhadores. Isso envolveu a integração de sensores, atuadores e sistemas de controle em uma arquitetura centralizada. Além disso, foram implementados algoritmos de controle avançados para otimizar o desempenho do sistema. O projeto foi um sucesso, resultando em aumentos significativos na produtividade e na qualidade do produto final.</p>
+            </div>
+          </div>
     </div>
+    
     <div class="card card2">
         <img src="img/waslogo.png" alt="imagem2">
         <h1>Projetos</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but </p>
-        <button class="btn-cards">Veja mais</button>
+        <p>b </p>
+        <button id="myBtn2" class="btn-cards">Veja mais</button>
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+              <span class="close2">&times;</span>
+              <p>Projeto de Desenvolvimento de Infraestrutura de Transporte Inteligente:
+                Este projeto envolveu o design e implementação de uma infraestrutura de transporte inteligente para uma cidade em crescimento. A equipe de engenharia desenvolveu um sistema integrado que inclui semáforos inteligentes, monitoramento de tráfego em tempo real, e sistemas de gestão de fluxo de veículos. Algoritmos de aprendizado de máquina foram aplicados para prever padrões de tráfego e otimizar o fluxo de veículos. Além disso, foram incorporadas soluções de segurança cibernética para proteger o sistema contra ameaças externas. Este projeto demonstra não apenas habilidades técnicas, mas também uma abordagem inovadora para resolver desafios urbanos contemporâneos.</p>
+            </div>
+          </div>
     </div>
     <div class="card card3">
         <img src="img/waslogo.png" alt="imagem3">
-        <h1>Projetos</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but </p>
-        <button class="btn-cards">Veja mais</button>
+        <h1>Projeto de Desenvolvimento de Energia Renovável:</h1>
+        <p>Este projeto envolveu o design e implementação de um sistema de energia renovável para uma comunidade rural. A equipe de engenharia desenvolveu um sistema híbrido que combina energia solar e eólica para fornecer eletricidade sustentável...</p>
+        <button id="myBtn3" class="btn-cards">Veja mais</button>
+        <div id="myModal3" class="modal">
+            <div class="modal-content">
+              <span class="close3">&times;</span>
+              <p>Projeto de Desenvolvimento de Energia Renovável:
+                Este projeto envolveu o design e implementação de um sistema de energia renovável para uma comunidade rural. A equipe de engenharia desenvolveu um sistema híbrido que combina energia solar e eólica para fornecer eletricidade sustentável e confiável. O escopo do projeto incluiu análise de viabilidade, seleção de tecnologia, design detalhado, instalação e comissionamento. Além disso, foram implementadas soluções de armazenamento de energia para garantir um fornecimento contínuo mesmo em condições climáticas adversas. Este projeto não só demonstra habilidades técnicas, mas também um compromisso com a sustentabilidade e o desenvolvimento comunitário.</p>
+            </div>
+          </div>
     </div>
     </div>
- <!-- 
-<button id="myBtn">Open Modal</button>
-
-
-<div id="myModal" class="modal">
-
-  
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
-</div>
--->  
-<!-------------------------------------------------------------------------------------------------------->
 <br>    
 <footer>
         <div id="footer_content">
@@ -121,7 +128,7 @@
                     <a  class="footer-link">(37) 3322-9628</a>
                 </li>
                 <li>
-                    <a  class="footer-link">Wasprojetos@gmail.com</a>
+                    <a  class="footer-link">wasprojetos@gmail.com</a>
                 </li>
             </ul>
 
