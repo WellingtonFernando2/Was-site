@@ -15,8 +15,8 @@
     --color-neutral-0: #0e0c0c;
 }
 body{
-    color: var(--dark);
-    background: var(--white);
+    color: black;
+    background: var(--dark);
 }
 
 .modal {
@@ -125,14 +125,22 @@ body{
     justify-content: space-between;
     padding: 0px 10%;
 }
+
 .home-text{
-    max-width: 37rem;
+    max-width: 50rem;
 }
 .home-text .text-h4{
     font-size: 1.5rem;
     color: var(--cor-secundaria);
     margin-bottom: 1rem;
 }
+
+.home-text .text-h4 span{
+    font-size: 1.5rem;
+    color:black;
+    margin-bottom: 1rem;
+}
+
 .home-text .text-h1{
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -153,7 +161,7 @@ body{
     background: #ff8800;
 }
 .home-img img{
-    width: 100%;
+    width: 95%;
 }
 
 .front img{
@@ -168,6 +176,30 @@ body{
     margin-right: auto;
     width: 200px;
 }
+
+#metas{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+    background-color: var(--white);
+    padding-top: 50px;
+}
+
+.metas-card{
+    width: 300px;
+}
+
+.metas-card h2{
+    margin-bottom: 15px;
+    color: var(--cor-secundaria);
+}
+
+.metas-card p,li{
+    font-weight: 430;
+}
+
 h1 {
     margin-bottom: 1rem;
   }
@@ -275,6 +307,7 @@ footer {
     color: var(--color-neutral-40);
     border-radius: 50%;
     transition: all 0.4s;
+    color: #ffffff;
 }
 
 #footer_social_media .footer-link i {
@@ -307,6 +340,7 @@ footer {
     gap: 0.75rem;
     list-style: none;
     padding: 0px ;
+    color: #ffffff;
 }
 
 .footer-list .footer-link {
@@ -316,16 +350,6 @@ footer {
 
 .footer-list .footer-link:hover {
     color: var(--cor-secundaria);
-}
-
-#footer_subscribe {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-#footer_subscribe p {
-    color: var(--color-neutral-30);
 }
 
 #input_group {
@@ -358,6 +382,7 @@ footer {
 }
 
 #footer_copyright {
+    color: #ffffff;
     box-shadow: 0 0.1rem 1rem #ffffff;
     display: flex;
     justify-content: center;
@@ -410,6 +435,7 @@ footer {
         overflow: hidden;
         gap: 5rem;
     }
+
     .home .text-h4{
         font-size: 15px;
     }
@@ -421,6 +447,7 @@ footer {
         font-size: 15px;
     }
     .home-img{
+        display: block;
         width: 125%;
     }
     /*FOOTER*/
@@ -442,7 +469,6 @@ footer {
 
 hr{
     box-shadow: 0 0.1rem 1rem #ffffff;
-    color: #7f37c9;
     height: 2px;
 
 }
