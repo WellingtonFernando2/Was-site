@@ -13,7 +13,6 @@
     --white:#0f0f11b4;
     --dark:#fff;
     --color-btn:#0044ff;
-
     --color-neutral-0: #0e0c0c;
     --color-neutral-10: #171717;
     --color-neutral-30: #a8a29e;
@@ -23,7 +22,7 @@ body{
     color: var(--dark);
     background: var(--white);
 }
-
+/*//////////////////////////////////////////////////////////////////*/
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -61,7 +60,7 @@ body{
     text-decoration: none;
     cursor: pointer;
   }
-
+/*//////////////////////////////////////////////////////////////////*/
 .navigation{
     display: flex;
     align-items: center;
@@ -185,7 +184,58 @@ h1 {
     opacity: 0.9;
     font-size: 1rem;
   }
-  
+/*PROJETOS CARD*/
+
+.projetos{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 50px;
+    background-color: rgb(190, 190, 190);
+    color: #202020;
+    width: 400px;
+    height: 570px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card>img{
+    width: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card>h1{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.card>p{
+    font-size: 17px;
+    padding: 10px 40px;
+}
+
+.btn-cards{
+    font-size: 17px;
+    padding: 10px 50px;
+    border: none;
+    background-color: var(--red);
+    color: var(--color-neutral-0);
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.5s background;
+    cursor: pointer;
+}
+
+.btn-cards:hover{
+    transition: 0.5s background;
+    background-color: #ff8800;
+}
+
+
 /*FOOTER*/
 footer {
     width: 100%;
