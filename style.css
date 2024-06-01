@@ -22,6 +22,31 @@ html,header,body{
 body{
     color: black;
     background: var(--dark);
+    
+}
+
+.dov{
+    display: flex;
+    justify-content: center;
+    margin-top:20px ;
+}
+
+.dov img{
+    box-shadow: 0 0.1rem 0.5rem #222121;
+    border-radius: 1%;
+}
+
+.sobre-titulo{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.sobre-texto{
+    text-indent: 50px;
+    text-align: justify;
+    width: 90%;
+    margin: 0 10px 60px 50px;
+
 }
 
 .modal {
@@ -273,53 +298,6 @@ h1 {
     background-color: #ff8800;
 }
 
-/*Slide*/
-
-.container-slider {
-  display: flex;
-  width: 100%;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.container-images {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 700px;
-}
-
-.slider {
-  opacity: 0;
-  transition: opacity .2s;
-  position: absolute;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.on {
-  opacity: 1;
-}
-
-#prev-button, #next-button {
-  width: 70px;
-  height: 60px;
-  border: none;
-    background-color: transparent;
-  cursor: pointer;
-}
-
-#prev-button img, #next-button img {
-  width: 100%;
-  height: 100%;
-}
-
-#prev-button {
-  transform: rotate(180deg);
-}
 /*FOOTER*/
 footer {
     width: 100%;
@@ -509,21 +487,9 @@ footer {
         gap: 2rem;
 }
 }
-
-.mapBox{
-    position: block;
-    width: 100vw;
-    height: 500px;
-}
-
-.mapBox iframe{
-    width: 100vw;
-}
-
 hr{
     box-shadow: 0 0.1rem 1rem #ffffff;
     height: 2px;
-
 }
 
 @media (max-width: 375px){
