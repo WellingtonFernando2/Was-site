@@ -443,7 +443,7 @@ footer {
         flex-direction: column;
     }
 
-    .btn-cards{
+    .dov,.btn-cards,.linha,.img-log{
         display: none;
     }
     #footer_social_media{
@@ -463,10 +463,6 @@ footer {
 
     .metas-card{
         margin-left: 30px;
-    }
-
-    .img-log{
-      display: none;
     }
     .navigation{
         padding: 18px 20px;
@@ -565,9 +561,6 @@ hr{
 }
 
 @media (min-width: 376px) and (max-width: 1439px){
-    .img-log{
-        display: none;
-      }
     .navigation{
         width: 100vw;
     }
@@ -576,8 +569,7 @@ hr{
         flex-direction: column;
         margin: 0px;
     }
-    .menu{
+    .menu,.dov,.img-log,.linha{
         display: none;
     }
-
 }
