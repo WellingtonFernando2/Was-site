@@ -445,6 +445,10 @@ footer {
 
     .btn-cards{
         display: none;
+
+    }
+    .card{
+        margin-left:0px ;
     }
     #metas{
         display: flex;
