@@ -445,7 +445,12 @@ footer {
 
     .btn-cards{
         display: none;
-
+    }
+    #footer_social_media{
+        margin-left:0px ;
+    }
+    #footer_contacts{
+        margin-left:0px ;
     }
     .card{
         margin-left:0px ;
@@ -544,15 +549,6 @@ hr{
         align-items: center;
         justify-content: center;
     }
-    .mapBox{
-        display: block;
-        margin: 0;
-        padding: 0;
-        width: 375px;
-    }
-    .mapBox iframe{
-        width: 375px;
-    }
     .footer-list{
         width: 350px;
         display: flex;
@@ -578,8 +574,10 @@ hr{
     #footer_content{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        margin: 0px;
+    }
+    .menu{
+        display: none;
     }
 
 }
